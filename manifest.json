@@ -1,8 +1,11 @@
 {
-  "name": "Hide all soundcloud comments",
+  "name": "Hide Soundcloud Comments",
   "version": "0.1",
   "manifest_version": 2,
-  "description": "Hide comments on my soundcloud dashboard.",
+  "description": "Hide comments on soundcloud dashboard.",
+  "icons": {
+    "16": "hidden-comment.png"
+  },
   "content_scripts": [
     {
       "matches": ["http://soundcloud.com/*"],
